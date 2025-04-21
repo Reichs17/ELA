@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #eabcff;
+}
+
+.titlebox{
+    display: flex;
+    /*color: #C0FD0B;*/
+    color: 	#bd00ff;
+    font-weight: 400;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    font-family: "Audiowide", sans-serif;
+}
+.titlebox h1:hover{
+    color: #C0FD0B;
+    transition: 0.3s;
+}
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.social a{
+    text-decoration: none;
+    /*color: #C0FD0B;*/
+    color: 	#bd00ff;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+}
+.social a:hover{
+    color: #C0FD0B;
+    transition: 0.3s;
+}
+.box{ 
+    background-color: #ffffff;
+    font-family: "Audiowide", sans-serif;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #bd00ff;
+    width: 460px;
+}
+.box .places{
+    font-family: "Audiowide", sans-serif;
+    background-color: #ffffff;
+    font-size: 20px;
+    color: #bd00ff;
+    font-weight: 400;
+    padding-bottom: 5px;
+}
+.box .places1{
+    font-family: "Audiowide", sans-serif;
+    background-color: #ffffff;
+    font-size: 15px;
+    color: #bd00ff;
+    font-weight: 400;
+    padding: 5px;
+}
+.elaimg{
+    image-rendering: auto;
+    padding: 20px;
+    border-radius: 20px;
+}
+.happy{ 
+    background-color: #ffffff;
+    font-family: "Audiowide", sans-serif;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #bd00ff;
+    width: 460px;
+
+}
+.happy .happyt{
+    font-family: "Audiowide", sans-serif;
+    background-color: #ffffff;
+    font-size: 20px;
+    color: #bd00ff;
+    font-weight: 400;
+    padding-bottom: 5px;
+}
+.happy .listt{
+    font-family: "Audiowide", sans-serif;
+    background-color: #ffffff;
+    font-size: 15px;
+    color: #bd00ff;
+    font-weight: 400;
+    padding: 5px;
+}
+.beijo{
+    position: absolute;
+    left: 20px;
+    border-radius: 10px;
+}
+.site{
+    font-size: 5px;
+}
