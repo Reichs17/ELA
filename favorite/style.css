@@ -4,6 +4,21 @@
     background-size: cover;
     background-position: center;
 }
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.social a{
+    /*color: #C0FD0B;*/
+    color: 	#ffffff;
+    font-size: 20px;
+}
+.social a:hover{
+    color: #C0FD0B;
+    transition: 0.3s;
+}
 h1{
     display: flex;
     justify-content: center;
